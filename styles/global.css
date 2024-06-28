@@ -1,0 +1,35 @@
+:root {
+  --brand-color-light: #60a5fa;
+  --brand-color-dark: #1d4ed8;
+  --bg-color: #0f172a;
+  --stroke-color: #1e293b;
+  --text-color-primary: #f1f5f9;
+  --text-colorsecondary: #cbd5e1;
+  --font-family: "Archivo", sans-serif;
+  font-family: var(--font-family);
+}
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--bg-color);
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  margin: 22px 32px;
+}
+ul {
+  list-style: none;
+  background-color: ;
+  color: var(--text-color-primary);
+}
+
+img {
+  padding-right: 8px;
+}
+img:nth-child(1) {
+  padding-left: 8px;
+  vertical-align: middle;
+} */
