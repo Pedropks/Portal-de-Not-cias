@@ -4,4 +4,15 @@
     object-fit: cover;
     border-radius: 6px;
   }
+  .card {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute; /* Posiçao abosulta */
+      inset: 0;
+      top: 50%;
+      background: linear-gradient(180deg, transparent 0%, #020617 100%);
+      /* overflow: hidden; Escondeu Tudo que passou */
+    }
+  }
 }
