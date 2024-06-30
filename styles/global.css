@@ -68,3 +68,8 @@ main {
   letter-spacing: 0.04rem;
   color: var(--text-color-primary);
 }
+footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
