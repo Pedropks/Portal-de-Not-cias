@@ -19,3 +19,19 @@
   border-inline: none;
   gap: 80px;
 }
+
+.container-2 {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+  color: rgb(203, 199, 199);
+  border: solid 1px var(--stroke-color);
+  border-inline: none;
+  border-bottom: none;
+  padding-block: 18px;
+}
+
+.grid-2 {
+  display: flex;
+  margin-top: 24px;
+}
